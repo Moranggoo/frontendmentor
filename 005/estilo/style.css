@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: 100%;
+} 
+body { 
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+section {
+  background-color: white;
+}
+img {
+  width: 100%;
+}
+article {
+  border-bottom: 1px solid hsla(32, 10%, 34%, 0.404);
+}
+h1, h2, p, li {
+  margin: 10px 0px 10px 10px;
+}
+h1 {
+  font-size: 2em;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+p, li {
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+}
+nav {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+strong {
+  color: hsl(332, 51%, 32%);
+}
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 46%, 30%);
+  font-weight: 400;
+}
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+span {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+#tabela {
+  list-style-type: none; 
+}
+#tabela strong {
+  color: hsl(14, 45%, 36%);
+  flex: 0 0 200px;
+}
+#tabela span {
+  font-weight: 400;
+  flex: 0 0 200px;
+}
+#tabela li {
+  padding: 10px;
+  border-bottom: 1px solid hsla(32, 10%, 34%, 0.404);
+  display: flex;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  main {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  section{
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  img {
+    border-radius: 10px;
+  }
+}

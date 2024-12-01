@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor1: hsl(0, 0%, 8%);
+    --cor2: hsl(0, 0%, 12%);
+    --cor3: hsl(0, 0%, 20%);
+    --cor4: hsl(75, 94%, 57%);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Inter", sans-serif;  
+    font-weight: normal;
+}
+#principal {
+    background-color: var(--cor1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo {
+    background-color: var(--cor2);
+    border-radius: 10px;
+    min-width: 375px;
+    max-width: 375px;
+    padding: 30px;
+}
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 120px;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+p.origem {
+    font-size: 14px;
+    color: var(--cor4);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+div > a {
+    display: block;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: -5px;
+    transition-duration: 0.5s;
+}
+div > a:hover {
+    background-color: var(--cor4);
+    color: white;   
+}
