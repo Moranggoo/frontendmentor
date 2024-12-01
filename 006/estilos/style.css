@@ -93,10 +93,12 @@ b {
 b:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+  transition-duration: .5s;
 }
 h1:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+  transition-duration: .5s;
 }
 
 .Imagem:hover .filtro{
@@ -104,6 +106,7 @@ h1:hover {
   height:100%;
   background-color: hsla(178, 100%, 50%, 0.397);
   cursor: pointer;
+  transition-duration: .5s;
   svg {
     display: block;
   }
