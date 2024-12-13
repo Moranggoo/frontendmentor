@@ -158,7 +158,7 @@ body {
 }
 #principal {
     height: 100vh;
-    width: 68vw;
+    width: 60vw;
     background-color: whitesmoke;
     margin: 0px auto;
 
@@ -181,7 +181,7 @@ div {
     grid-row: 1/2;
 }
 #um p:first-of-type {
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 #um img {
     width: 30%;
@@ -197,8 +197,8 @@ div {
     justify-content: end;
 }
 #dois p {
-    font-size: 1.5vw;
-    line-height: 2rem;
+    font-size: 1.3vw;
+    line-height: 1.8rem;
 }
 #tres {
     background-size: 100%;
@@ -209,13 +209,13 @@ div {
     grid-row: 2/3;
 }
 #tres p {
-    font-size: 1.5vw;
-    line-height: 2rem;
+    font-size: 1.3vw;
+    line-height: 1.8rem;
 }
 #quatro {
     background-size: 200px;
     background-position: 50px 100px;
-    padding: 10px;
+    padding: 40px 20px 10px 20px;
     height: 100%;
 
     grid-column: 4/5;
@@ -224,7 +224,7 @@ div {
 }
 #quatro p:first-of-type {
     font-size: 2vw;
-    line-height: 2rem;
+    line-height: 1.8rem;
     text-align: start;
 }
 #cinco {
@@ -238,9 +238,10 @@ div {
     align-items: center;
 }
 #cinco p {
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white;
-    line-height: 2rem;
+    line-height: 1.8rem;
+    text-align: start;
 }
 #cinco img {
     width: 60%;
@@ -258,7 +259,7 @@ div {
     width: 60%;
 }
 #seis strong {
-    font-size: 2.8vw;
+    font-size: 2vw;
 }
 #sete {
     padding: 20px;
@@ -306,22 +307,40 @@ div {
     background-position:  center 110px;
    } 
    #quatro {
-    background-size: 250px;
+    background-size: 180px;
     background-position:  80px center;
    }
 }
 @media only screen and (min-width: 1367px) {
-    #oito {
-        margin-top: -15rem;
-    }
     #dois p {
         font-size: 2.5vw;
+        line-height: 2.2rem;
     }
     #tres {
         background-size: 80%;
-        background-position:  center 160px;
+        background-position:  center 170px;
        } 
     #tres p {
         font-size: 2.5vw;
+        line-height: 2.2rem;
     }
+    #quatro {
+        background-size: 400px;
+    }
+    #seis strong {
+        font-size: 2.8vw;
+    }
+    #sete p {
+        line-height: 2.5rem;
+    }
+    #oito {
+        margin-top: -15rem;
+    }
+    #oito img {
+        width: 90%;
+    }
+    #oito p {
+        line-height: 2.5rem;
+    }
+
 }
