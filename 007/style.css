@@ -107,7 +107,7 @@ div {
 }
 #seis {
     height: 300px;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 20px;
 
     justify-content: space-between;
@@ -198,7 +198,7 @@ div {
 }
 #dois p {
     font-size: 1.5vw;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 #tres {
     background-size: 100%;
@@ -210,7 +210,7 @@ div {
 }
 #tres p {
     font-size: 1.5vw;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 #quatro {
     background-size: 200px;
@@ -224,7 +224,7 @@ div {
 }
 #quatro p:first-of-type {
     font-size: 2vw;
-    line-height: 1.8rem;
+    line-height: 2rem;
     text-align: start;
 }
 #cinco {
@@ -240,7 +240,7 @@ div {
 #cinco p {
     font-size: 2.5vw;
     color: white;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 #cinco img {
     width: 60%;
@@ -271,7 +271,7 @@ div {
 }
 #sete p {
     font-size: 2.7vw;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 #sete i {
     color: blueviolet;
@@ -293,7 +293,7 @@ div {
 }
 #oito p {
     font-size: 2.5vw;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 }
 @media only screen and (min-width: 1200px) {
@@ -303,10 +303,25 @@ div {
     }
    #tres {
     background-size: 80%;
-    background-position:  center 220%;
+    background-position:  center 110px;
    } 
    #quatro {
     background-size: 250px;
     background-position:  80px center;
    }
+}
+@media only screen and (min-width: 1367px) {
+    #oito {
+        margin-top: -15rem;
+    }
+    #dois p {
+        font-size: 2.5vw;
+    }
+    #tres {
+        background-size: 80%;
+        background-position:  center 160px;
+       } 
+    #tres p {
+        font-size: 2.5vw;
+    }
 }
