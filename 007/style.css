@@ -40,6 +40,9 @@ div {
     text-align: center;
     margin-bottom: 20px;
 }
+#um strong {
+    color: rgb(255, 217, 0);
+}
 #um img {
     width: 50%;
 }
@@ -150,12 +153,6 @@ div {
 }
 
 @media only screen and (min-width: 768px) {
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Destaque;
-}
 body {
     background-color: whitesmoke;
 }
@@ -175,33 +172,24 @@ div {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    margin: 0;
 }
 #um {
-    background-color: blueviolet;
-    color: white;
     height: 100%;
 
     grid-column: 2/4;
     grid-row: 1/2;
-    justify-content: center;
-    align-items: center;
 }
 #um p:first-of-type {
     font-size: 4vw;
-    text-align: center;
-}
-#um strong {
-    color: rgb(255, 217, 0);
 }
 #um img {
     width: 30%;
     margin-bottom: 5px;
 }
 #dois {
-    background: white url(images/illustration-multiple-platforms.webp) no-repeat;
     background-size: 150%;
     background-position: 2% 0px;
-    padding: 10px;
     height: 100%;
 
     grid-column: 2/3;
@@ -213,10 +201,8 @@ div {
     line-height: 1.8rem;
 }
 #tres {
-    background: rgb(255, 217, 0) url(images/illustration-consistent-schedule.webp) no-repeat;
     background-size: 100%;
     background-position: center 135%;
-    padding: 10px;
     height: 100%;
 
     grid-column: 3/4;
@@ -227,7 +213,6 @@ div {
     line-height: 1.8rem;
 }
 #quatro {
-    background: rgba(238, 130, 238, 0.603) url(images/illustration-schedule-posts.webp) no-repeat;
     background-size: 200px;
     background-position: 50px 100px;
     padding: 10px;
@@ -243,7 +228,6 @@ div {
     text-align: start;
 }
 #cinco {
-    background-color: blueviolet;
     padding: 10px;
     height: 75%;
 
@@ -264,13 +248,10 @@ div {
     margin-right: 60px;
 }
 #seis {
-    background-color: white;
-    padding: 10px;
     height: 75%;
 
     grid-column: 2/3;
     grid-row: 3/4;
-    justify-content: space-between;
     align-items: center;
 }
 #seis img {
@@ -280,7 +261,6 @@ div {
     font-size: 2.8vw;
 }
 #sete {
-    background-color: rgba(255, 217, 0, 0.582);
     padding: 20px;
     height: 65%;
 
@@ -300,8 +280,6 @@ div {
     width: 70%;
 }
 #oito {
-    background-color: rgb(255, 217, 0); 
-    padding: 10px;
     height: 165%;
     margin-top: -9.5rem;
 
@@ -320,8 +298,8 @@ div {
 }
 @media only screen and (min-width: 1200px) {
     #dois {
-        background-size: 130%;
-        background-position: 5px 0%;
+    background-size: 130%;
+    background-position: 5px 0%;
     }
    #tres {
     background-size: 80%;
