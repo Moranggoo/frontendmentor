@@ -122,7 +122,7 @@ div {
     padding: 40px;
     height: 300px;
 
-    grid-column;: 1/2
+    grid-column: 1/2;
 }
 #sete p {
     font-size: 2em;
