@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: Destaque;
+    src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Destaque;
+}
+#principal {
+    grid-template-columns: 1fr;
+}
+div {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#um {
+    background-color: blueviolet;
+    height: 350px;
+    padding: 20px;
+    color: white;
+
+    grid-column: 1/2;
+    align-items: center;
+}
+#um p:first-of-type {
+    font-size: 3.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#um img {
+    width: 50%;
+}
+#dois {
+    background: whitesmoke url(images/illustration-multiple-platforms.webp) no-repeat;
+    background-size: 400px;
+    background-position: center 20px;
+    padding: 20px;
+    height: 200px;
+
+    justify-content: end;
+    grid-column: 1/2;
+}
+#dois p {
+    font-size: 2em;
+    line-height: 30px;
+}
+#tres {
+    height: 250px;
+    background: rgb(255, 217, 0) url(images/illustration-consistent-schedule.webp) no-repeat;
+    background-size: 200px;
+    background-position: 20px bottom;
+    padding: 20px;
+
+    grid-column: 1/2;
+}
+#tres p{
+    font-size: 2em;
+}
+#quatro {
+    height: 600px;
+    background: rgba(238, 130, 238, 0.603) url(images/illustration-schedule-posts.webp) no-repeat;
+    background-size: 400px;
+    background-position:  center center;
+    padding: 50px 20px;
+
+    grid-column: 1/2;
+    justify-content: space-between;
+}
+#quatro p:first-of-type {
+    font-size: 2em;
+}
+#quatro p {
+    text-align: center;
+}
+#cinco {
+    height: 350px;
+    background-color: blueviolet;
+    padding: 30px;
+
+    grid-column: 1/2;
+    align-items: center;
+}
+#cinco img {
+    width: 60%;
+}
+#cinco p {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+#seis {
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+
+    justify-content: space-between;
+    grid-column: 1/2;
+}
+#seis strong {
+    font-size: 4em;
+    display: block;
+}
+#seis img {
+    width: 50%;
+}
+#sete {
+    background-color: rgba(255, 217, 0, 0.473);
+    padding: 40px;
+    height: 250px;
+
+    grid-column;: 1/2
+}
+#sete p {
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+#sete i {
+    color: blueviolet;
+}
+#sete img {
+    width: 60%;
+}
+#oito {
+    background-color: rgb(255, 217, 0);
+    padding: 20px;
+
+    grid-column: 1/2;
+}
+#oito p {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+#oito img {
+    width: 60%;
+}
+
+@media only screen and (min-width: 1200px) {
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Destaque;
+}
+body {
+    background-color: whitesmoke;
+}
+#principal {
+    height: 100vh;
+    width: 68vw;
+    background-color: whitesmoke;
+    margin: 0px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 40% 30% 30%; 
+    gap: 20px;
+   
+}
+div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#um {
+    background-color: blueviolet;
+    color: white;
+    height: 100%;
+
+    grid-column: 2/4;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+}
+#um p:first-of-type {
+    font-size: 300%;
+    text-align: center;
+}
+#um strong {
+    color: rgb(255, 217, 0);
+}
+#um img {
+    width: 30%;
+    margin-bottom: 5px;
+}
+#dois {
+    background: white url(images/illustration-multiple-platforms.webp) no-repeat;
+    background-size: 300px;
+    background-position: 5px 0px;
+    padding: 20px;
+    height: 100%;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: end;
+}
+#dois p {
+    font-size: 110%;
+    line-height: 30px;
+}
+#tres {
+    background: rgb(255, 217, 0) url(images/illustration-consistent-schedule.webp) no-repeat;
+    background-size: 200px;
+    background-position: center 100px;
+    padding: 20px;
+    height: 100%;
+
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#tres p {
+    font-size: 110%;
+    line-height: 30px;
+}
+#quatro {
+    background: rgba(238, 130, 238, 0.603) url(images/illustration-schedule-posts.webp) no-repeat;
+    background-size: 250px;
+    background-position:  100px center;
+    padding: 20px;
+    height: 100%;
+
+    grid-column: 4/5;
+    grid-row: 1/3;
+    justify-content: space-between;
+}
+#quatro p:first-of-type {
+    font-size: 150%;
+    line-height: 40px;
+    text-align: start;
+}
+#cinco {
+    background-color: blueviolet;
+    padding: 30px;
+    height: 75%;
+
+    grid-column: 3/5;
+    grid-row: 3/4;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#cinco p {
+    font-size: 200%;
+    color: white;
+    line-height: 40px;
+}
+#cinco img {
+    width: 60%;
+    height: 100%;
+    margin-right: 60px;
+}
+#seis {
+    background-color: white;
+    padding: 20px;
+    height: 75%;
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-content: space-between;
+    align-items: center;
+}
+#seis img {
+    width: 60%;
+}
+#seis strong {
+    font-size: 250%;
+    margin-right: 70px;
+}
+#sete {
+    background-color: rgba(255, 217, 0, 0.582);
+    padding: 40px;
+    height: 65%;
+
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-content: center;
+    align-items: center;
+}
+#sete p {
+    font-size: 200%;
+    line-height: 40px;
+}
+#sete i {
+    color: blueviolet;
+}
+#sete img {
+    width: 70%;
+}
+#oito {
+    background-color: rgb(255, 217, 0); 
+    padding: 20px;
+    height: 165%;
+    margin-top: -160px;
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-items: center;
+    justify-content: space-between;
+}
+#oito img {
+    width: 65%;
+}
+#oito p {
+    font-size: 200%;
+    line-height: 45px;
+}
+}
+
+@media only screen and (min-width: 1367px) {
+    #um p:first-of-type {
+        font-size: 500%;
+    }
+    #um img {
+        width: 30%;
+        margin-bottom: 5px;
+    }
+    #dois {
+        background-position: 20px 20px;
+        background-size: 400px;
+    }
+    #dois p {
+        font-size: 250%;
+        line-height: 40px;
+    }
+    #tres {
+        background-position: center 190px;
+    }
+    #tres p {
+        font-size: 250%;
+        line-height: 40px;
+    }
+    #quatro p:first-of-type {
+        font-size: 250%;
+        line-height: 40px;
+        text-align: start;
+    }
+    #cinco {
+        height: 85%;
+    }
+    #cinco p {
+        font-size: 300%;
+        color: white;
+        line-height: 40px;
+    }
+    #cinco img {
+        width: 50%;
+        height: 90%;
+        margin-right: 60px;
+    }
+    #seis {
+        height: 85%;
+    }
+    #seis img {
+        width: 60%;
+    }
+    #seis strong {
+        font-size: 400%;
+        margin-right: 70px;
+    }
+    #sete p {
+        font-size: 300%;
+        line-height: 40px;
+    }
+    #sete i {
+        color: blueviolet;
+    }
+    #sete img {
+        width: 70%;
+    }
+    #oito {
+        margin-top: -220px;
+    }
+    #oito img {
+        width: 70%;
+    }
+    #oito p {
+        font-size: 300%;
+        line-height: 45px;
+    }
+    }
