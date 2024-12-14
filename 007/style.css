@@ -160,7 +160,110 @@ div {
 #oito img {
     width: 60%;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
+    #principal {
+        height: 100vh;
+        width: 70vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 40% 30% 30%;
+        margin: auto;
+        overflow: hidden;
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    #um {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        height: 100%;
+    }
+    #um p:first-of-type {
+        font-size: 3rem;
+    }
+    #dois {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        height: 100%;
+        background-position: 0px 1vw;
+        background-size: 300px;
+    }
+    #tres {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        height: 100%;
+        background-position: center 7vw;
+    }
+    #quatro {
+        grid-column: 4/5;
+        grid-row: 1/3;
+        height: 100%;
+        background-position: 7vw 7vw;
+        background-size: contain;
+    }
+    #quatro p {
+        text-align: start;
+        font-size: 1.5em;
+        margin-top: -10px;
+    }
+    #quatro p:last-of-type {
+        line-height: 25px;
+        font-size: 16px;
+    }
+    #cinco {
+        grid-column: 3/5;
+        grid-row: 3/4;
+        height: 85%;
+        flex-direction: row;
+    }
+    #cinco img {
+        width: 35%;
+    }
+    #seis {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        height: 75%;
+    }
+    #seis p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #seis strong {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    #seis img {
+        width: 70%;
+    }
+    #sete {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height: 100%;
+    }
+    #sete p {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    #sete img {
+        width: 80%;
+    }
+    #oito {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        height: 90%;
+        justify-content: space-between;
+    }
+    #oito img {
+        width: 100%;
+    }
+    #oito p {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+}
+@media only screen and (min-width: 1440px) {
     #principal {
         height: 100vh;
         width: 60vw;
@@ -177,6 +280,9 @@ div {
         grid-column: 2/4;
         grid-row: 1/2;
         height: 100%;
+    }
+    #um p:first-of-type {
+        font-size: 4em;
     }
     #dois {
         grid-column: 2/3;
@@ -195,9 +301,11 @@ div {
         grid-row: 1/3;
         height: 100%;
         background-position: 3.5vw 7vw;
+        background-size: 400px;
     }
     #quatro p {
         text-align: start;
+        font-size: 2.2em;
     }
     #quatro p:last-of-type {
         line-height: 30px;
@@ -215,6 +323,10 @@ div {
         grid-column: 2/3;
         grid-row: 3/4;
         height: 85%;
+    }
+    #seis strong {
+        font-size: 4em;
+        margin-bottom: 20px;
     }
     #seis img {
         width: 70%;
@@ -239,4 +351,7 @@ div {
     #oito img {
         width: 100%;
     } 
+    #oito p {
+        font-size: 2.5em;
+    }
 }
