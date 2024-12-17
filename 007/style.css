@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div:nth-child() {
+  overflow: hidden;
+}
+#grid {
+  display: flex;
+  flex-direction: column;
+}
+#um {
+  background-color: aqua;
+}
+#dois {
+  background-color: yellowgreen;
+}
+#tres {
+  background-color: yellow;
+}
+#quatro {
+  background-color: violet;
+}
+#cinco {
+  background-color: blueviolet;
+}
+#seis {
+  background-color: blue;
+}
+#sete {
+  background-color: tomato;
+}
+#oito {
+  background-color: red;
+}
