@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body {
+  overflow: hidden;
+}
+#grid {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0px;
+  gap: 0px;
+  background-color: red;
+  gap: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  'sete um um quatro'
+  'oito dois tres quatro'
+  'oito seis cinco cinco';
+}
+#um {
+  grid-area: um;
+  height: 37.6vh;
+  justify-content: center;
+}
+#um p:first-of-type {
+  font-size: 4rem;
+}
+#dois {
+  grid-area: dois;
+  height: 25vh;
+}
+#tres {
+  grid-area: tres;
+  height: 25vh;
+}
+#quatro {
+  grid-area: quatro;
+  height: 65vh;
+}
+#cinco {
+  grid-area: cinco;
+  flex-direction: row;
+  height: 25vh;
+}
+#cinco img {
+  width: 50%;
+}
+#seis {
+  grid-area: seis;
+  height: 25vh;
+}
+#sete {
+  grid-area: sete;
+  height: fit-content;
+}
+#oito {
+  grid-area: oito;
+  height: fit-content;
+}
