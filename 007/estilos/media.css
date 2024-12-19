@@ -27,7 +27,7 @@ body {
 }
 #dois {
   grid-area: dois;
-  height: 29vh;
+  height: 265px;
 }
 #dois img {
   width: 380px;
@@ -35,7 +35,7 @@ body {
 }
 #tres {
   grid-area: tres;
-  height: 29vh;
+  height: 265px;
 }
 #tres img {
   width: 200px;
@@ -45,7 +45,7 @@ body {
 #quatro {
   grid-area: quatro;
   grid-row: 1/3;
-  height: 65vh;
+  height: 570px;
 }
 #quatro img {
   width: 350px;
@@ -54,14 +54,14 @@ body {
 #cinco {
   grid-area: cinco;
   flex-direction: row;
-  height: 25vh;
+  height: 250px;
 }
 #cinco img {
   width: 40%;
 }
 #seis {
   grid-area: seis;
-  height: 25vh;
+  height: 250px;
   align-items: center;
 }
 #seis p {
@@ -72,15 +72,18 @@ body {
 }
 #sete {
   grid-area: sete;
-  height: 100%;
+  height: 65%;
   align-items: center;
+  grid-row: 1/span 2;
+  margin-top: 0px;
 }
 #sete img {
   width: 70%;
 }
 #oito {
   grid-area: oito;
-  height: 100%;
+  height: 83%;
+  margin-bottom: 0px;
 }
 #oito img {
   width: 100%;

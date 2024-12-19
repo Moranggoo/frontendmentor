@@ -114,7 +114,7 @@ div:nth-child(n+1) {
 }
 #seis {
   background-color: white;
-  padding: 30px;
+  padding: 20px;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
@@ -160,4 +160,21 @@ div:nth-child(n+1) {
 }
 #oito img {
   width: 50%;
+}
+@media screen and (min-width: 768px){
+  #dois img {
+    width: 500px;
+  }
+  #quatro img {
+    width: 400px;
+  }
+  #cinco img {
+    width: 250px;
+  }
+  #seis img {
+    width: 200px;
+  }
+  #oito img {
+    width: 200px;
+  }
 }
