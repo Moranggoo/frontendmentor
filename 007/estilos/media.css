@@ -1,7 +1,5 @@
 @charset "UTF-8";
-body {
-  overflow: hidden;
-}
+
 #grid {
   max-width: 1200px;
   margin: 2rem auto;

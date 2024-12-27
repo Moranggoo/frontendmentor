@@ -39,6 +39,8 @@ div:nth-child(n+1) {
   padding: 20px;
   color: white;
   height: 40vh;
+
+  justify-content: center;
 }
 #um p:first-of-type {
   font-size: 4em;
